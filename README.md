@@ -9,6 +9,6 @@ An app for pinning locations on a world map, along with the locations' informati
  ```$ npx parcel index.html```</br>
  
  Run development server with hot reload</br>
- ```$ npx index.html```
+ ```$ parcel index.html```
  
  Open localhost:1234 in browser
