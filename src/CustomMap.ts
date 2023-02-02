@@ -23,16 +23,7 @@ export class CustomMap {
 			}
 		);
 	}
-
-	// ! repetitive code that's not extensible without constantly adding a function for each marker
-	// addUserMarker(user: User): void{
-	//   new google.maps.Marker({map: this.googleMap, position: user.location});
-	// }
-
-	// addCompanyMarker(company: Company): void{
-	//   new google.maps.Marker({map: this.googleMap, position: company.location});
-	// }
-
+  
 	addMarker(mappable: Mappable) {
 		const marker = new google.maps.Marker({ map: this.googleMap, position: mappable.location });
    
