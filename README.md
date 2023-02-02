@@ -5,7 +5,10 @@ An app for pinning locations on a world map, along with the locations' informati
  Navigate into maps directory and run<br/>
  ```$ npm install```</br>
  
- Navigate into src and run</br>
- ```$ npx install index.html```</br>
+ Build app and run development server with parcel</br>
+ ```$ npx parcel index.html```</br>
+ 
+ Run development server with hot reload</br>
+ ```$ npx index.html```
  
  Open localhost:1234 in browser
