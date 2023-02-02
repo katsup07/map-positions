@@ -2,7 +2,7 @@
 An app for pinning locations on a world map, along with the locations' information.
 
  # Install 
- Navigate into maps directory and run<br/>
+ Navigate into map-positions-main directory and run<br/>
  ```$ npm install```</br>
  
  Build app and run development server with parcel</br>
